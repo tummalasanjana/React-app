@@ -1,0 +1,28 @@
+.Users-row {
+  display: flex;
+  justify-content: center;
+}
+
+.Users-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  border-top: 1px solid #eee;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.Users-container:hover {
+  background-color: #eee;
+}
+
+.Users-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.Users-name {
+  padding-left: 1rem;
+}

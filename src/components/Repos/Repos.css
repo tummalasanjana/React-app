@@ -1,0 +1,21 @@
+.Repos-row {
+  display: flex;
+  justify-content: center;
+}
+
+.Repos-container {
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Repos-name {
+  font-weight: bold;
+}
+
+.Repos-description {
+  padding-top: 8px;
+}

@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.App-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-nav {
+  padding: 2rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.App-active {
+  font-weight: bold;
+}
